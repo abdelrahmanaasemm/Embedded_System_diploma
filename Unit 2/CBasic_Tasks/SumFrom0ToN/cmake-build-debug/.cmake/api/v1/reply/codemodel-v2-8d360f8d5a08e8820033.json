@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SumFrom0ToN",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SumFrom0ToN::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SumFrom0ToN-Debug-b133a7cff6f1483f8b7c.json",
+					"name" : "SumFrom0ToN",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/asoom/selflearningggg/kero dip/Embedded_System_diploma/Unit 2/CBasic_Tasks/SumFrom0ToN/cmake-build-debug",
+		"source" : "F:/asoom/selflearningggg/kero dip/Embedded_System_diploma/Unit 2/CBasic_Tasks/SumFrom0ToN"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

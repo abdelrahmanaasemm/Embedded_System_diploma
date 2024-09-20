@@ -1,0 +1,3 @@
+F:/asoom/selflearningggg/kero dip/Embedded_System_diploma/Unit 2/CBasic_Tasks/task1/EX7/cmake-build-debug/CMakeFiles/EX7.dir
+F:/asoom/selflearningggg/kero dip/Embedded_System_diploma/Unit 2/CBasic_Tasks/task1/EX7/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/asoom/selflearningggg/kero dip/Embedded_System_diploma/Unit 2/CBasic_Tasks/task1/EX7/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,9 @@
+# ninja log v5
+1	116	7439575618518319	CMakeFiles/LargestNum.dir/main.c.obj	ccdf18f3dcaff070
+117	253	7439575619840066	LargestNum.exe	8f2c926dabda600
+2	125	7439576836745724	CMakeFiles/LargestNum.dir/main.c.obj	ccdf18f3dcaff070
+126	259	7439576838014629	LargestNum.exe	8f2c926dabda600
+2	97	7439577124671660	CMakeFiles/LargestNum.dir/main.c.obj	ccdf18f3dcaff070
+98	223	7439577125876962	LargestNum.exe	8f2c926dabda600
+2	84	7439577509141007	CMakeFiles/LargestNum.dir/main.c.obj	ccdf18f3dcaff070
+85	198	7439577510232987	LargestNum.exe	8f2c926dabda600
