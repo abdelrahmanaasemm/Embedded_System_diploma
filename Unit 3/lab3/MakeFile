@@ -1,0 +1,37 @@
+#@copyright : Mazen Omar
+CC =arm-none-eabi-
+cFLAGS =-mcpu=cortex-m3
+INCS =-I .
+LIBS =
+SRC =$(wildcard *.c)
+OBJ =$(SRC:.c=.o)
+As =$(wildcard *.s)
+AsOBJ =$(As:.s=.o)
+DEBUG = -gdwarf-2
+ARM_MODE = -mthumb
+C_STD=
+
+Project_name =learn_in_depth_cortex-m3
+
+build: $(Project_name).bin
+	@echo "<=============Build successfully=============>"
+
+output: $(Project_name).bin
+	qemu-system-arm -M versatilepb -m 128M -nographic -kernel $<
+	@echo "output:
+	"
+
+%.o: %.c
+	$(CC)gcc $(DEBUG) $(cFLAGS) $(ARM_MODE) $(C_STD) $(INCS) -c $< -o $@
+
+$(Project_name).elf: $(OBJ) $(AsOBJ)
+	$(CC)ld -T linker_script.ld $(LIBS) $(AsOBJ) $(OBJ) -o $@ -Map=Map_file.map
+
+$(Project_name).bin: $(Project_name).elf
+	$(CC)objcopy -O binary $< $@
+
+clean_all:
+	rm *.bin *.o *.elf
+
+clean: 
+	rm *.bin *.elf

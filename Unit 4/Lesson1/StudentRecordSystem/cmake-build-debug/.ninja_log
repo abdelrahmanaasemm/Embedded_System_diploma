@@ -1,0 +1,5 @@
+# ninja log v5
+1	265	7496726175911910	CMakeFiles/BankSystem.dir/main.c.obj	e63c82e6021e6105
+1	191	7496726624718124	CMakeFiles/StudentRecordSystem.dir/main.c.obj	b7560ba1a34e5ba9
+12	206	7496726624869769	CMakeFiles/StudentRecordSystem.dir/data.c.obj	280076d248148639
+206	428	7496726627030008	StudentRecordSystem.exe	9a822e9371598f08

@@ -1,0 +1,11 @@
+# ninja log v5
+20	433	7496767579251043	build.ninja	faa1993a909e2e42
+20	200	7496766393020464	CMakeFiles/Project2_database_by_fifo.dir/Queue.c.obj	f7eba6b24aefc1c0
+1	197	7496766393030993	CMakeFiles/Project2_database_by_fifo.dir/main.c.obj	4da98736a9bc0726
+11	214	7496766393255894	CMakeFiles/Project2_database_by_fifo.dir/system.c.obj	bf97765d49c9f9e4
+5	238	7496770250149013	CMakeFiles/Project2_database_by_fifo.dir/main.c.obj	4da98736a9bc0726
+17	244	7496770250159010	CMakeFiles/Project2_database_by_fifo.dir/Queue.c.obj	f7eba6b24aefc1c0
+30	246	7496770250209831	CMakeFiles/Project2_database_by_fifo.dir/system.c.obj	bf97765d49c9f9e4
+41	315	7496770517378248	CMakeFiles/Project2_database_by_fifo.dir/Queue.c.obj	f7eba6b24aefc1c0
+14	317	7496770517429382	CMakeFiles/Project2_database_by_fifo.dir/main.c.obj	4da98736a9bc0726
+28	335	7496770517611098	CMakeFiles/Project2_database_by_fifo.dir/system.c.obj	bf97765d49c9f9e4
